@@ -69,6 +69,18 @@
  */
 @property (nonatomic, weak) id<JSKTimerViewDelegate> delegate;
 
+/**
+ Properties for customization of timer view colors
+*/
+@property (nonatomic, strong) UIColor *progressColor;
+
+@property (nonatomic, strong) UIColor *progressStartColor;
+
+@property (nonatomic, strong) UIColor *progressNearFinishedColor;
+
+@property (nonatomic, strong) UIColor *progressAlmostFinishedColor;
+
+@property (nonatomic, strong) UIColor *progressFinishedColor;
 
 ///-----------------------------------------------------------
 /// @name Timer Methods

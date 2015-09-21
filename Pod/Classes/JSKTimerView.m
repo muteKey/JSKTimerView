@@ -34,12 +34,6 @@ static NSString *jsk_progressAnimationKey = @"progressAnimationKey";
 @property (nonatomic, assign) CGFloat strokeWidth;
 @property (nonatomic, strong) NSTimer *viewTimer;
 
-@property (nonatomic, strong) UIColor *progressColor;
-@property (nonatomic, strong) UIColor *progressStartColor;
-@property (nonatomic, strong) UIColor *progressNearFinishedColor;
-@property (nonatomic, strong) UIColor *progressAlmostFinishedColor;
-@property (nonatomic, strong) UIColor *progressFinishedColor;
-
 @property (nonatomic, strong) UILabel *timerLabel;
 @property (nonatomic, strong) UIBezierPath *strokePath;
 @property (nonatomic, strong) CAShapeLayer *progressLayer;
