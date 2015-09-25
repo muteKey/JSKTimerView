@@ -314,7 +314,7 @@ static NSString *jsk_progressAnimationKey = @"progressAnimationKey";
     
     CAShapeLayer *progressLayer = [CAShapeLayer layer];
     progressLayer.path = self.strokePath.CGPath;
-    progressLayer.fillColor = [[UIColor clearColor] CGColor];
+    progressLayer.fillColor = [[UIColor whiteColor] CGColor];
     progressLayer.lineWidth = self.strokeWidth;
     progressLayer.strokeColor = [self.progressStartColor CGColor];
     progressLayer.strokeEnd = 0;
